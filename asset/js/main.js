@@ -13,13 +13,7 @@ BONUS 2:
 Organizzare i singoli membri in card/schede
  */
 
-/*
 
-PASSAGGI:
-
-1 - importo l'array oggetti
-
- */
 
 
 // array con oggetti
@@ -83,20 +77,5 @@ for (let i = 0; i < team.length; i++) {
         </div>
     </div>
     `
-
-    //stampo gli argomenti degli oggetti
-    // for (let j = 0; j < keys.length; j++) {
-    //     console.log(team[i][keys[j]]);
-        
-    //     document.getElementById(`${i}`).innerHTML += `
-        
-    //     <div class="">
-
-    //     ${team[i][keys[j]]}
-
-    //     </div>
-
-    //     `
-    // };
 };
 
