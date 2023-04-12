@@ -18,8 +18,12 @@ body {
 
 
 
-h1 , h2, h4{
+h1 , h2, h4, div{
     color: var(--color-4);
+}
+
+p {
+    color: var(--color-1);
 }
 
 

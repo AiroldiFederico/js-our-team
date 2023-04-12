@@ -58,6 +58,11 @@ const team = [
 ];
 
 
+
+
+
+
+
 // stampare in console gli oggetti dell'array
 for (let i = 0; i < team.length; i++) {
     //console.log(team[i]);
@@ -65,9 +70,22 @@ for (let i = 0; i < team.length; i++) {
     // assegno le keys nell'array a una variabile
     let keys = Object.keys(team[i]);
 
+    //creo il div contenente gli ogetti
+    document.querySelector('div').innerHTML += `<div id="${i}" class="my-3"></div>`
+
     //stampo gli argomenti degli oggetti
     for (let j = 0; j < keys.length; j++) {
         console.log(team[i][keys[j]]);
-    }
+        
+        document.getElementById(`${i}`).innerHTML += `
+        
+        <div class="">
+
+        ${team[i][keys[j]]}
+
+        </div>
+
+        `
+    };
 };
 
