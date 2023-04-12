@@ -6,6 +6,6 @@
 
 **DATA:** 12 APRILE 2023
 
-**STATO DELL'ESERCIZIO:** wip
+**STATO DELL'ESERCIZIO:** CONCLUSO
 
 _Boolean Classe #93_
