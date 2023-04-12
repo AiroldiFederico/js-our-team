@@ -72,11 +72,15 @@ for (let i = 0; i < team.length; i++) {
 
     //creo il div contenente gli ogetti
     document.querySelector('div').innerHTML += `
-    <div id="${i}" class="my-3">
+    <div id="${i}" class=" card col-3">
 
-    <img src="/asset/img/${team[i][keys[2]]}" alt="">
+        <img src="/asset/img/${team[i][keys[2]]}" alt="" class="card-img-top">
 
-
+        <div class="card-body">
+            <h5 class="card-title">${team[i][keys[0]]}</h5>
+            <p class="card-text">${team[i][keys[1]]}</p>
+            
+        </div>
     </div>
     `
 
