@@ -55,4 +55,19 @@ const team = [
       role: 'Graphic Designer',
       image: 'barbara-ramos-graphic-designer.jpg',
     },
-  ];
+];
+
+
+// stampare in console gli oggetti dell'array
+for (let i = 0; i < team.length; i++) {
+    //console.log(team[i]);
+
+    // assegno le keys nell'array a una variabile
+    let keys = Object.keys(team[i]);
+
+    //stampo gli argomenti degli oggetti
+    for (let j = 0; j < keys.length; j++) {
+        console.log(team[i][keys[j]]);
+    }
+};
+
