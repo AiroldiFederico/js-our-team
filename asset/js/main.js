@@ -71,21 +71,28 @@ for (let i = 0; i < team.length; i++) {
     let keys = Object.keys(team[i]);
 
     //creo il div contenente gli ogetti
-    document.querySelector('div').innerHTML += `<div id="${i}" class="my-3"></div>`
+    document.querySelector('div').innerHTML += `
+    <div id="${i}" class="my-3">
+
+    <img src="/asset/img/${team[i][keys[2]]}" alt="">
+
+
+    </div>
+    `
 
     //stampo gli argomenti degli oggetti
-    for (let j = 0; j < keys.length; j++) {
-        console.log(team[i][keys[j]]);
+    // for (let j = 0; j < keys.length; j++) {
+    //     console.log(team[i][keys[j]]);
         
-        document.getElementById(`${i}`).innerHTML += `
+    //     document.getElementById(`${i}`).innerHTML += `
         
-        <div class="">
+    //     <div class="">
 
-        ${team[i][keys[j]]}
+    //     ${team[i][keys[j]]}
 
-        </div>
+    //     </div>
 
-        `
-    };
+    //     `
+    // };
 };
 
